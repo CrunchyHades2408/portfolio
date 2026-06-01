@@ -1,11 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-section-header',
+  standalone: true,
   imports: [],
   templateUrl: './section-header.html',
-  styleUrl: './section-header.css',
+  styleUrl: './section-header.css'
 })
 export class SectionHeader {
+
+  @Input() title = '';
+
+  @Input() subtitle = '';
 
 }

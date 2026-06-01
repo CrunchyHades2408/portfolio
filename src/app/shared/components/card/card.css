@@ -1,0 +1,17 @@
+.card {
+  background: var(--card);
+
+  border: 1px solid var(--border);
+
+  border-radius: 20px;
+
+  padding: 24px;
+
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+
+  border-color: #3b82f6;
+}

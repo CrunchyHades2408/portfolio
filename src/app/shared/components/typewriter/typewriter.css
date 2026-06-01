@@ -1,0 +1,23 @@
+h2 {
+  font-size: 2rem;
+
+  font-weight: 700;
+
+  color: var(--accent);
+
+  min-height: 3rem;
+}
+
+.cursor {
+
+  animation: blink 1s infinite;
+
+}
+
+@keyframes blink {
+
+  50% {
+    opacity: 0;
+  }
+
+}

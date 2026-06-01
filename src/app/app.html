@@ -1,18 +1,23 @@
-<div class="p-20 flex gap-4">
+<app-navbar></app-navbar>
 
-  <app-button
-    label="Primary"
-    variant="primary">
-  </app-button>
+<div
+  class="flex flex-col items-center justify-center min-h-screen text-center px-8">
 
-  <app-button
-    label="Secondary"
-    variant="secondary">
-  </app-button>
+  <h1
+    class="text-6xl font-bold mb-6">
 
-  <app-button
-    label="Ghost"
-    variant="ghost">
-  </app-button>
+    ARNAV AMRIT
+
+  </h1>
+
+  <app-typewriter
+    [phrases]="[
+      'Building AI Systems',
+      'Building Full Stack Applications',
+      'Building Production Software',
+      'Building ML Pipelines',
+      'Building Cloud Native Products'
+    ]">
+  </app-typewriter>
 
 </div>
