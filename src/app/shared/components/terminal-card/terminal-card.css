@@ -1,0 +1,62 @@
+.terminal {
+
+  width: 100%;
+
+  max-width: 500px;
+
+  background: var(--card);
+
+  border: 1px solid var(--border);
+
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.header {
+
+  display: flex;
+
+  gap: 8px;
+
+  padding: 16px;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.red,
+.yellow,
+.green {
+
+  width: 12px;
+
+  height: 12px;
+
+  border-radius: 50%;
+}
+
+.red {
+  background: #ef4444;
+}
+
+.yellow {
+  background: #eab308;
+}
+
+.green {
+  background: #22c55e;
+}
+
+.content {
+
+  padding: 24px;
+
+  font-family: "JetBrains Mono", monospace;
+}
+
+.value {
+
+  color: var(--muted);
+
+  margin-left: 12px;
+}

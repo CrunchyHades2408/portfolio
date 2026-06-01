@@ -1,8 +1,12 @@
 import { Component } from '@angular/core';
+import { TerminalCard } from '../../shared/components/terminal-card/terminal-card';
+import { Typewriter } from '../../shared/components/typewriter/typewriter';
+import { Button } from '../../shared/components/button/button';
+import { Card } from '../../shared/components/card/card';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [Card,Button,Typewriter,TerminalCard],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
