@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@import "./styles/theme.css";
+@import "./styles/typography.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, sans-serif;
+}

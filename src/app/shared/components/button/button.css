@@ -1,0 +1,39 @@
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 12px 24px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: all 0.2s ease;
+}
+
+.primary {
+  background: var(--accent);
+  color: white;
+}
+
+.primary:hover {
+  opacity: 0.9;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.secondary:hover {
+  background: var(--card);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--text);
+}
+
+.ghost:hover {
+  background: var(--card);
+}

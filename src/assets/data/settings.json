@@ -1,1 +1,7 @@
-{}
+{
+  "typewriterSpeed": 70,
+  "deleteSpeed": 40,
+  "pauseDuration": 1500,
+  "showCodeRain": true,
+  "showLoadingScreen": true
+}

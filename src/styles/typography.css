@@ -1,0 +1,25 @@
+.heading-xl {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.heading-lg {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.heading-md {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.body-text {
+  color: var(--muted);
+}
+
+.mono {
+  font-family: "JetBrains Mono", monospace;
+}
