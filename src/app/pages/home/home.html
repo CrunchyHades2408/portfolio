@@ -1,27 +1,71 @@
-
-<div
-  class="min-h-screen flex items-center justify-center px-12">
+<section
+  class="min-h-screen flex items-center">
 
   <div
-    class="grid md:grid-cols-2 gap-12 items-center">
+    class="max-w-[1280px] mx-auto px-8 w-full grid lg:grid-cols-2 gap-20 items-center">
 
     <div>
 
-      <h1
-        class="text-6xl font-bold mb-6">
+      <p
+        class="text-blue-500 font-semibold mb-4 tracking-wider uppercase">
 
-        ARNAV AMRIT
+        Software Engineer • ML Engineer
+
+      </p>
+
+      <h1
+        class="text-6xl md:text-8xl font-bold leading-tight mb-6">
+
+        Building software that solves
+        <span class="text-blue-500">
+          real problems.
+        </span>
 
       </h1>
 
-      <app-typewriter
-        [phrases]="[
-          'Building AI Systems',
-          'Building Full Stack Applications',
-          'Building Production Software',
-          'Building ML Pipelines'
-        ]">
-      </app-typewriter>
+      <div class="mb-8">
+
+        <app-typewriter
+          [phrases]="[
+            'Building AI Systems',
+            'Building Full Stack Applications',
+            'Building Production Software',
+            'Building ML Pipelines'
+          ]">
+        </app-typewriter>
+
+      </div>
+
+      <p
+        class="text-zinc-400 text-lg max-w-xl mb-10 leading-relaxed">
+
+        Computer Science student focused on Machine Learning,
+        Full Stack Development and Production Systems.
+
+        I build applications that go beyond tutorials and solve
+        practical problems.
+
+      </p>
+      <p
+  class="text-zinc-500 mt-6 text-sm tracking-wider uppercase">
+
+  Arnav Amrit
+
+</p>
+
+      <div class="flex flex-wrap gap-4">
+
+        <app-button
+          label="View Projects"
+          variant="primary">
+        </app-button>
+
+        <app-button
+          label="Contact Me"
+          variant="secondary">
+        </app-button>
+
+      </div>
 
     </div>
 
@@ -30,4 +74,66 @@
 
   </div>
 
-</div>
+</section>
+<section
+  class="px-8 max-w-7xl mx-auto mb-32">
+
+  <app-section-header
+    title="Quick Stats"
+    subtitle="Numbers that summarize my journey">
+  </app-section-header>
+
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <app-stat-card
+      value="15+"
+      label="Projects">
+    </app-stat-card>
+
+    <app-stat-card
+      value="20+"
+      label="Technologies">
+    </app-stat-card>
+
+    <app-stat-card
+      value="5"
+      label="Research Works">
+    </app-stat-card>
+
+  </div>
+
+</section>
+
+<section
+  class="px-8 max-w-7xl mx-auto mb-32">
+
+  <app-section-header
+    title="Featured Projects"
+    subtitle="Projects I am most proud of">
+  </app-section-header>
+
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+
+    <app-project-card
+      title="Protein Mutation Analyzer"
+      description="Analyze protein mutations using transformer embeddings."
+      [techStack]="['Angular','FastAPI','PyTorch']">
+    </app-project-card>
+
+    <app-project-card
+      title="Shadow Learning Platform"
+      description="AI powered language shadowing application."
+      [techStack]="['Angular','Python','Whisper']">
+    </app-project-card>
+
+    <app-project-card
+      title="Plant Disease Detection"
+      description="CNN + Transformer based disease classification."
+      [techStack]="['TensorFlow','OpenCV','Python']">
+    </app-project-card>
+
+  </div>
+
+</section>
